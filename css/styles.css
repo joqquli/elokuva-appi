@@ -1,0 +1,121 @@
+/* Perustyyli */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff0f5; /* Hempeä vaaleanpunainen tausta */
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Navigointipalkki */
+  nav {
+    background-color: #ffd700; /* Vaaleankeltainen */
+    padding: 15px;
+    text-align: center;
+    border-bottom: 4px solid #ffa07a; /* Hempeä korostettu oranssi-pinkki */
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 12px 20px;
+    background-color: #ffb6c1; /* Vaaleanpunainen */
+    color: white;
+    border: none;
+    border-radius: 30px; /* Pyöreät kulmat */
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ffa07a; /* Hempeä oranssi */
+  }
+  
+  /* Hakupalkki */
+  #search-container {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  #search-input {
+    padding: 12px;
+    width: 300px;
+    border: 2px solid #ffb6c1; /* Vaaleanpunainen */
+    border-radius: 30px; /* Pyöreät kulmat */
+    font-size: 1em;
+  }
+  
+  #search-button {
+    padding: 12px 20px;
+    background-color: #ffd700; /* Keltainen */
+    color: white;
+    border: none;
+    border-radius: 30px; /* Pyöreät kulmat */
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  #search-button:hover {
+    background-color: #ff69b4; /* Kirkkaampi vaaleanpunainen hover-efekti */
+  }
+  
+  /* Sivujen yleinen tyyli */
+  .page {
+    padding: 30px;
+  }
+  
+  /* Elokuvakorttien tyyli */
+  .movie-card {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fffaf0; /* Erittäin vaalea keltainen */
+    border: 2px solid #ffb6c1; /* Vaaleanpunainen reuna */
+    border-radius: 20px; /* Pyöristetyt kulmat */
+    width: 220px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Hieman varjoa */
+    transition: transform 0.3s ease;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px; /* Pyöreät kuvan kulmat */
+  }
+  
+  .movie-card h3 {
+    font-size: 1.1em;
+    margin: 15px 0;
+    color: #ff69b4; /* Vaaleanpunainen elokuvan nimi */
+  }
+  
+  .movie-card button {
+    background-color: #ffb6c1; /* Vaaleanpunainen */
+    border-radius: 20px; /* Pyöreät napit */
+    padding: 10px;
+    font-size: 0.9em;
+    margin: 10px 5px; /* Lisää tilaa nappien väliin */
+  }
+  
+  .movie-card button:first-of-type {
+    margin-right: 10px; /* Lisää tilaa oikealle Add to Favorites -napille */
+  }
+  
+  .movie-card button:hover {
+    background-color: #ff69b4; /* Kirkkaampi vaaleanpunainen hover */
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05); /* Pieni suurennusefekti hoverilla */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* Hieman vahvempi varjo hoverilla */
+  }
+  
+  /* Välilehden otsikot */
+  h1 {
+    color: #ff69b4; /* Hempeä vaaleanpunainen otsikot */
+    text-align: center;
+    font-size: 2.2em;
+  }
+  

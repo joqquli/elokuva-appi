@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ElokuvaÄppi</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav>
+    <button id="nav-home">Etusivu</button>
+    <button id="nav-favorites">Kiinnostaa</button>
+    <button id="nav-watched">Katsotut</button>
+  </nav>
+
+  <div id="search-container">
+    <input type="text" id="search-input" placeholder="Etsi elokuvia...">
+    <button id="search-button">Etsi</button>
+  </div>
+
+  <div id="home-page" class="page">
+    <h1>Suositut tällä hetkellä</h1>
+    <div id="movie-container"></div>
+  </div>
+
+  <div id="favorites-page" class="page" style="display:none;">
+    <h1>Sinun suosikkisi</h1>
+    <div id="favorite-movies"></div>
+  </div>
+
+  <div id="watched-page" class="page" style="display:none;">
+    <h1>Sinun katsomasi</h1>
+    <div id="watched-movies"></div>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
