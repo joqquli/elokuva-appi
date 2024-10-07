@@ -2,6 +2,8 @@
 
 ## Projektin kuvaus
 
+Tämä on harjoitustyö web-ohjelmoinnin kurssille.
+
 ElokuvaÄppi on verkkosovellus, joka hakee elokuvatietoja **The Movie Database (TMDb)** -palvelusta. Sovelluksen avulla käyttäjä voi:
 - Selailla suosittuja elokuvia
 - Etsiä elokuvia hakutoiminnon avulla
