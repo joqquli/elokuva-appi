@@ -36,6 +36,7 @@ elokuva-appi/ │ ├── index.html # Sovelluksen HTML-tiedosto ├── css
      ```javascript
      const apiKey = 'YOUR_API_KEY';
      ```
+     Tässä tapauksessa: const apiKey = '87eb933f7136212cda329345c6e29ff4';
 
 2. **Projektin käynnistäminen**:
    - Lataa projekti ja avaa `index.html` selaimessasi. Tämä käynnistää sovelluksen.
